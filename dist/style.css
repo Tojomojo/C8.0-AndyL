@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: green;
+    --secondary: white;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#navbar {
+    background-color: var(--primary);
+    color: var(--secondary);
+    font-size: 58px;
+}
+
+.navbar-brand {
+    font-size: 52px;
+}
+
+.card-header {
+    background-color: var(--primary);
+    color: var(--secondary);
+}
+
+.card-body {
+    background-color: purple;
+    color: var(--secondary);
+}
+
+.container {
+    margin: 110px auto;
+    justify-content: space-evenly;
+    display: flex;
+}
