@@ -60,7 +60,7 @@ const generateIntern = function(intern) {
 }
 
 //pushing the array to page
-generateHtml = (data) => {
+buildHtml = (data) => {
     // arrary for cards
     pageArray = [];
 
@@ -101,7 +101,7 @@ generateHtml = (data) => {
 }
 
 //making the html
-const generateHtml = function (employeeCards) {
+const generateTeamPage = function (employeeCards) {
     return `
     <!DOCTYPE html>
 <html lang="en">
@@ -136,4 +136,4 @@ const generateHtml = function (employeeCards) {
 }
 
 // to be exported to index.js
-modeule.exports = generateHtml
+module.exports = buildHtml;

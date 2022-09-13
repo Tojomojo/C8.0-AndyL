@@ -1,0 +1,28 @@
+{
+  "name": "c8.0",
+  "version": "1.0.0",
+  "description": "This is a command-line application that generates a team profile with information on the members based on user input.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tojomojo/C8.0-AndyL.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tojomojo/C8.0-AndyL/issues"
+  },
+  "homepage": "https://github.com/Tojomojo/C8.0-AndyL#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4",
+    "jest": "^29.0.3"
+  }
+}

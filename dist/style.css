@@ -27,7 +27,7 @@ body {
 }
 
 .card-body {
-    background-color: purple;
+    background-color: violet;
     color: var(--secondary);
 }
 
